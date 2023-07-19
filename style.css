@@ -1,0 +1,12 @@
+/* make the odd rows of the table lightgray */
+
+table{
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+tr:nth-child(odd) {
+    background-color: lightgray;
+  }
+  
